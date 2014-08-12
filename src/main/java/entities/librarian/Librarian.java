@@ -1,6 +1,6 @@
 package entities.librarian;
 
-public class Librarian {
+public class Librarian implements IImmutableLibrarian {
     private String login;
     private String password;
     private String mail;

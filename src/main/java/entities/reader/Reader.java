@@ -1,6 +1,6 @@
 package entities.reader;
 
-public class Reader {
+public class Reader implements IImmutableReader {
     private String login;
     private String password;
     private String mail;
